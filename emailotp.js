@@ -9,7 +9,7 @@ function SendOTP(){
         To : email.value,
         From : "neethukshine@gmail.com",
         Subject : "Email OTP using Javascript",
-        Body : Emailbody,
+        Body : emailbody,
     }).then(
       message => {
         if(message ==="OK"){
